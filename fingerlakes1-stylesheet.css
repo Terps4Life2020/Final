@@ -12,11 +12,61 @@
 
 .byline {
   font-family: Helvetica;
-  font-size: 20px;
-  color: grey;
-  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  text-align: left;
   padding-top: 30px;
+  padding-left: 0;
   padding-bottom: 20px;
+}
+
+.title {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: black;
+  padding-left: 0;
+  text-align: left;
+}
+
+.date {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.header-caption {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.graphics {
+  max-width: 100%;
+  padding: 20px;
+}
+
+/*p:first-letter {
+  font-size: 50px;
+  color: orange; */
+
+.round {
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  border: solid 6px #ffa64d;
+}
+
+.logo {
+  display: block;
+  align: center;
+  max-width: 800px;
+  padding-bottom: 20px;
+  padding-top: 40px;
 }
 
 .subhead .chapter {
@@ -31,12 +81,13 @@
   padding-bottom: 25px;
 }
 
-.p {
+p {
 font-family: Helvetica;
 font-size: 16px;
 text-align: left;
+color: black;
 padding-left: 0px;
-padding-bottom: 20px;
+padding: round 5px;
 }
 
 img {
@@ -76,28 +127,28 @@ img {
 }
 
 .footer {
-  background-color: black;
+  background-color: #ffa64d;
   padding: 30px;
   text-align: center;
   color: white;
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 25px;
+  text-shadow: 2px 2px black;
 }
 
 .pull {
   font-family: Helvetica serif;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 40px;
-  color: black;
+  color: #ffa64d;
   font-weight: bold;
   text-align: left;
   padding-top: 25px;
-  padding-left: 0;
   padding-bottom: 25px;
 }
 
 
-.fade {
+/*.fade {
   background: black;
 }
 .fade {
@@ -158,4 +209,4 @@ img {
       rgba(0,0,0,0.9) 100%
     ),
     url(https://github.com/Terps4Life2020/html-frame/tree/master/Images/Hallway.jpg);
-}
+}*/
