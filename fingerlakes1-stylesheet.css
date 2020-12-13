@@ -152,6 +152,7 @@ img {
   font-size: 30px;
   line-height: 40px;
   color: black;
+  font-style: italic;
   text-align: center;
   padding-bottom: 25px;
 }
@@ -189,7 +190,7 @@ a:hover {
 }
 
 .fade-in {
-  animation: fadein 10s;
+  animation: fadein 15s;
 }
 
 @keyframes fadein {
